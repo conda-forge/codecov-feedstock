@@ -1,6 +1,6 @@
 {% set name = "codecov" %}
-{% set version = "2.0.6" %}
-{% set sha256 = "999bf4d6f7e072433601798f3f291277a4ab519b245af2971cdeb247dbb21454" %}
+{% set version = "2.0.9" %}
+{% set sha256 = "3ea0fb29746bfe8856c43ce9be893896ad0b8097f139954c6fd17814d14fd282" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
