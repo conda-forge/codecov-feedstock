@@ -14,9 +14,7 @@ Summary: Hosted coverage reports for Github, Bitbucket and Gitlab
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/codecov-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/codecov-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/codecov-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/codecov-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/codecov-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/codecov-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/codecov-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/codecov-feedstock)
 
 Current release info
 ====================
