@@ -14,12 +14,15 @@ Summary: Hosted coverage reports for Github, Bitbucket and Gitlab
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/codecov-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/codecov-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/codecov-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/codecov-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/codecov/badges/version.svg)](https://anaconda.org/conda-forge/codecov)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/codecov/badges/downloads.svg)](https://anaconda.org/conda-forge/codecov)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-codecov-green.svg)](https://anaconda.org/conda-forge/codecov) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/codecov.svg)](https://anaconda.org/conda-forge/codecov) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/codecov.svg)](https://anaconda.org/conda-forge/codecov) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/codecov.svg)](https://anaconda.org/conda-forge/codecov) |
 
 Installing codecov
 ==================
