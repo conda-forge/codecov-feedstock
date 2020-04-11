@@ -1,6 +1,6 @@
 {% set name = "codecov" %}
-{% set version = "2.0.15" %}
-{% set sha256 = "474700e009b4175a3614cf8678a25d591e66cea2af2c1bbe80b53faec10621f3" %}
+{% set version = "2.0.18" %}
+{% set sha256 = "05deb070c6ace59116e321fda42f809546b6f98a4bde27333ac91f7190443bf4" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed . 
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - codecov=codecov:main
 
@@ -38,8 +38,9 @@ test:
 about:
   home: https://github.com/codecov/codecov-python
   license: Apache-2.0
+  license_file: LICENSE
   license_family: Apache
-  summary: 'Hosted coverage reports for Github, Bitbucket and Gitlab'
+  summary: Hosted coverage reports for Github, Bitbucket and Gitlab
   doc_url: https://github.com/codecov/codecov-python
   dev_url: https://github.com/codecov/codecov-python
 
