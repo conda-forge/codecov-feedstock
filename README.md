@@ -117,4 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@CJ-Wright](https://github.com/CJ-Wright/)
+* [@marcelotrevisani](https://github.com/marcelotrevisani/)
 
