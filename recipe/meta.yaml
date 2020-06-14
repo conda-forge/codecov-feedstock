@@ -31,9 +31,6 @@ test:
     - codecov
   commands:
     - codecov -h
-    - pip check
-  requires:
-    - pip
 
 about:
   home: https://github.com/codecov/codecov-python
