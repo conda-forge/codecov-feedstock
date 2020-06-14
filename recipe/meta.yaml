@@ -1,5 +1,5 @@
 {% set name = "codecov" %}
-{% set version = "2.1.6" %}
+{% set version = "2.1.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5bf4e752844566087c287cb7c43522210c28ac5db089005966109f58cbcbe135
+  sha256: 491938ad774ea94a963d5d16354c7299e90422a33a353ba0d38d0943ed1d5091
 
 build:
   noarch: python
