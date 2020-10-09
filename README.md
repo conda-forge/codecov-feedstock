@@ -5,11 +5,13 @@ Home: https://github.com/codecov/codecov-python
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/codecov-feedstock/blob/master/LICENSE.txt)
 
 Summary: Hosted coverage reports for Github, Bitbucket and Gitlab
 
+Development: https://github.com/codecov/codecov-python
 
+Documentation: https://github.com/codecov/codecov-python
 
 Current build status
 ====================
