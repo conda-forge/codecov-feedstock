@@ -6,12 +6,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/codecov-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/codecov-{{ version }}.tar.gz
   sha256: 2362b685633caeaf45b9951a9b76ce359cd3581dd515b430c6c3f5dfb4d92a8c
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - codecov=codecov:main
@@ -19,10 +19,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.3
+    - python {{ python_min }}
   run:
     - coverage
-    - python >=3.3
+    - python >={{ python_min }}
     - requests >=2.7.9
 
 test:
@@ -33,6 +33,7 @@ test:
     - codecov --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/codecov/codecov-python
